@@ -1,4 +1,4 @@
-{% set version = "0.6-0" %}
+{% set version = "0.6-5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/JMbayes2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/JMbayes2/JMbayes2_{{ version }}.tar.gz
-  sha256: 35544aa0c804bd3c62e635c68921630efa26754ce030ca008bead93260430998
+  sha256: b3708ece72bc78e1dd42045f8844f55cf237f02b15b4a4d893346dd1313690c8
 
 build:
   number: 0
